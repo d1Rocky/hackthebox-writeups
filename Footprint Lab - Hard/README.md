@@ -57,7 +57,9 @@ PORT    STATE SERVICE
 ![image](https://github.com/user-attachments/assets/c9d742f9-c19c-4417-b62a-bff3c565131f)
 
 
-* Found another user - bob
+* User id shows that tom can access mysql. Used this information to access mysql by running ```mysql --user=tom -p```
 
-![image](https://github.com/user-attachments/assets/5f99b65c-3db2-474f-8364-20c4fa1f5d78)
+
+![image](https://github.com/user-attachments/assets/a18b1227-a5b3-4496-97c9-c01b2885b399)
+
  

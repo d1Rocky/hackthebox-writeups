@@ -3,6 +3,9 @@
 IP - 10.129.38.229
 
 
+## Scanning & Enumeration
+
+
 nmap - 
 ```
 Discovered open port 135/tcp on 10.129.38.229
@@ -60,11 +63,36 @@ Host script results:
 ```
 
 
+## Port 2049 (NFS) Enumeration
+
+
+![image](https://github.com/user-attachments/assets/39ab7025-0c2e-469b-a65d-5fbf6b939f45)
+
+
+* Found directory ```/TechSupport```
+* I created a directory in my machine called "NFS" and ran this command to move /TechSupport to my machine - ```sudo mount -t nfs 10.129.38.229:/TechSupport ./NFS/ -o nolock```
+* I received "cd: permission denied: NFS" so I switched to root user by running ```sudo su```
+* Now I was able to review the files inside the /TechSupport but there were to many of them and going through each one would take forever so I ran ```ls -la``` to view which one has information inside
+
+![image](https://github.com/user-attachments/assets/200f568b-b272-4341-868b-ba727ec43339)
+
+
+* Inside ```ticket4238791283782.txt``` I found username and password:
+
+
+![image](https://github.com/user-attachments/assets/3626fef0-a370-4925-83e4-5f12c51417e2)
 
 
 
+## Port 3389 (RDP) Enumeration
+
+* I used the username and password to remote in using RDP and found ```important.txt``` file.
 
 
+![image](https://github.com/user-attachments/assets/b3020bf5-b192-4ef8-8ba7-400e55fcd308)
+
+
+* Tried to RDP again but this time I used Administrator login credentials and added the new password that I found - ```xfreerdp3 /v:10.129.38.229 /u:Administrator /p:’87N1ns@slls83'```
 
 
 ![image](https://github.com/user-attachments/assets/bd9b9cc8-157a-4ddc-b4ba-5e9fb214efd8)

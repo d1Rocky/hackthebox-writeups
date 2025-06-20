@@ -24,7 +24,9 @@ PORT    STATE SERVICE
 ```
 
 
-* Used tool snmpwalk to find user Tom
+* Used tool ```snmpwalk``` to find user Tom
 
 
 ![image](https://github.com/user-attachments/assets/3b845965-5747-47c5-b1be-6610fc4dacc9)
+
+

@@ -24,9 +24,18 @@ PORT    STATE SERVICE
 ```
 
 
-* Used tool ```snmpwalk``` to find user Tom
+* Used tool ```snmpwalk``` to find username and password
 
 
-![image](https://github.com/user-attachments/assets/3b845965-5747-47c5-b1be-6610fc4dacc9)
+![image](https://github.com/user-attachments/assets/bd322157-2a10-4ba0-ada8-d19943fb153d)
+
+
+
+## Port 143 (IMAP)
+
+* Successfully found files inside IMAP port using username: tom and password: NMds732Js2761
+
+
+![image](https://github.com/user-attachments/assets/3c41d11b-ae4c-4fb5-a94e-d3ab75bcb573)
 
 

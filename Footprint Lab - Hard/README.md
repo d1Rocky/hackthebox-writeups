@@ -62,4 +62,19 @@ PORT    STATE SERVICE
 
 ![image](https://github.com/user-attachments/assets/a18b1227-a5b3-4496-97c9-c01b2885b399)
 
+
+
+* Successfully found HTB user and password using those commands inside mysql:
+
+
+```
+SHOW DATABASES;
+USE USERS;
+SHOW TABLES;
+SELECT * FROM users;
+```
+
+
+![image](https://github.com/user-attachments/assets/7c73b6e3-b270-4526-87b2-94f77ea646e6)
+
  

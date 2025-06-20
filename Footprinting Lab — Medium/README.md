@@ -1,4 +1,4 @@
-# Footprinting Lab — Medium
+# Footprint Lab — Medium
 
 IP - 10.129.38.229
 

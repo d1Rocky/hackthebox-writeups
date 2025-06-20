@@ -33,9 +33,31 @@ PORT    STATE SERVICE
 
 ## Port 143 (IMAP)
 
-* Successfully found files inside IMAP port using username: tom and password: NMds732Js2761
+* Found files inside IMAP port using curl command
 
 
 ![image](https://github.com/user-attachments/assets/3c41d11b-ae4c-4fb5-a94e-d3ab75bcb573)
 
 
+* Logged into IMAP using this command - ``` openssl s_client -connect 10.129.251.220:imaps ```
+* Successfully logged into user tom
+
+![image](https://github.com/user-attachments/assets/290810fd-57d9-4c14-9700-c975ab9da25b)
+
+
+* Found inside "INBOX" rsa key for SSH
+
+
+## Port 22 (SSH)
+
+* Created a file and pasted the rsa key inside and then I set the permissions of the file to ```chmod 600```
+* Successfully logged into user tom using SSH
+
+
+![image](https://github.com/user-attachments/assets/c9d742f9-c19c-4417-b62a-bff3c565131f)
+
+
+* Found another user - bob
+
+![image](https://github.com/user-attachments/assets/5f99b65c-3db2-474f-8364-20c4fa1f5d78)
+ 

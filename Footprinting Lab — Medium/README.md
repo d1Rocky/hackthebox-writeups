@@ -93,7 +93,7 @@ Host script results:
 
 
 * Tried to RDP again but this time I used Administrator login credentials and added the new password that I found - ```xfreerdp3 /v:10.129.38.229 /u:Administrator /p:’87N1ns@slls83'```
-* After successfully remoting in, I was able to easily access 
+* After successfully remoting in, I was able to easily access the SQL Server and look for the 
 
 
 ![image](https://github.com/user-attachments/assets/bd9b9cc8-157a-4ddc-b4ba-5e9fb214efd8)
